@@ -30,6 +30,8 @@ class QuizBrain {
     Question(
         q: 'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
         a: true),
+    Question(q: 'Is Jessica Shylock\'s daughter', a: true),
+    Question(q: 'Did Bassanio choose the golden casket', a: false),
   ];
 
   String getQuestion() {
